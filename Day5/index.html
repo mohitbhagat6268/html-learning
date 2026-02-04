@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Making</title>
+</head>
+<body> <!--every tag has attribute ex. dark blue is tag and light blue is attribute in vs code-->
+    <h1>Login Form</h1>
+    <form>
+        <label for="name">Enter Your Name</label>
+        <input type="text" id="name" name="full name" placeholder="Full Name" required> <!-- input tag is use to take input from user , type is attribute of input tag-->
+        <br><br> <!--for and name should be same in label and input tag -->
+        <label for="email">Enter Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" randomly>
+        <br><br>
+        <label for="pass">Enter Your Password</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter Your Password" required>
+        <br><br>
+         <label for="age">Enter Your Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter Your Age" min="1" max="200" required>
+        <br><br>
+         <label for="gender">Enter Your Gender</label>
+        <input type="radio" id="gender" name="gender" value="male">Male
+        <input type="radio" id="gender" name="gender" value="female">Female
+        <br><br>
+        <input type="checkbox" id="terms" name="terms" required> I agree to the terms and conditions </input>
+        <br><br>
+        <input type="submit" value="register"><!-- you can use a submit or a button also-->
+    </form>
+    </body>
+</html>
