@@ -1,0 +1,35 @@
+body {
+    font-family:cursive;
+
+}
+.description {
+    font-size: 18px;
+    color: orange;
+    margin-bottom: 20px;
+}
+.hexa {
+    color: #005692;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.rgb {
+    color: rgb(0,0,0);
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+}
+.hsl {
+    color: hsl(120, 50%, 50%);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.rgba {
+    color: rgba(255, 0, 0, 1.0);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+img { width: 50%;
+ }
+ .image{
+    text-align: center;
+ }
